@@ -1,0 +1,48 @@
+div {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*background-color: var(--main-lgrey);*/
+}
+
+div > p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: var(--main-dark);
+}
+div > h1 {
+  border-bottom: solid 2px var(--main-primary);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  font-family: var(--main-banner-font);
+  font-weight: 400;
+  color: var(--main-dark);
+}
+
+div > button {
+  width: 150px;
+  height: 50px;
+  font-family: var(--main-banner-font);
+  font-weight: 400;
+  color: white;
+  background-color: var(--main-primary);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+
+}
+
+div > h1 > img {
+  height: 75px;
+  width: 75px;
+  float: right;
+}

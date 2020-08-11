@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form > input {
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 1.5em;
+  border: solid 1px var(--main-dark);
+  width: 100%;
+}
+
+form > textarea {
+  margin-bottom: 20px;
+  height: 200px;
+  width: 100%;
+  border-radius: 7px;
+  font-size: 1.5em;
+  border: solid 1px var(--main-dark);
+}
+
+form > button {
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  font-size: 1.5em;
+  border: solid 1px var(--main-dark);
+}
