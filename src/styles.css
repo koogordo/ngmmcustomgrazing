@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --main-banner-font: 'Cabin', sans-serif;
+  --main-dark: #202828;
+  --main-primary: #187a09;
+  --main-lgrey: #ededed;
+}
+body {
+  margin: 0;
+}

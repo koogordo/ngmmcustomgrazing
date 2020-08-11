@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngmmcustomgrazing"
+    }
+  },
+  "defaultProject": "ngmmcustomgrazing",
+  "cli": {
+    "analytics": false
+  }
 }

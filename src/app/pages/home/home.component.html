@@ -1,0 +1,8 @@
+<app-primary-banner></app-primary-banner>
+<app-read-more *ngIf="readMoreActive" [readMoreCtx]="readMoreCtx" (exited)="deactivateModal()"></app-read-more>
+<section id="homeTileRow">
+  <app-home-tile tileTitle="Healthy Pastures" iconSrc="https://img.icons8.com/carbon-copy/100/000000/field.png" (tileActivated)="activateModal('healthy-pastures')"></app-home-tile>
+  <app-home-tile tileTitle="Happy Cattle" iconSrc="https://img.icons8.com/carbon-copy/100/000000/cow.png" (tileActivated)="activateModal('happy-cattle')"></app-home-tile>
+  <app-home-tile tileTitle="Healthy People" iconSrc="https://img.icons8.com/carbon-copy/100/000000/person-male.png" (tileActivated)="activateModal('healthy-people')"></app-home-tile>
+</section>
+<app-footer></app-footer>
