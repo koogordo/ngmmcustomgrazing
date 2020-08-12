@@ -1,6 +1,6 @@
 <app-navigation></app-navigation>
 <header id="primaryBanner">
-  <h1>M & M Custom Grazing</h1>
-  <h2>Healthy pastures. Happy cattle. Healthy people.</h2>
-  <button>Get In Touch</button>
+  <h1>{{title}}</h1>
+  <h2>{{tagline}}</h2>
+  <button *ngIf="showActionButton" routerLink="/contact">Contact Us</button>
 </header>

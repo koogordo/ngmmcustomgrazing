@@ -1,4 +1,4 @@
-<app-primary-banner></app-primary-banner>
+<app-primary-banner tagline="Healthy pastures. Happy cattle. Healthy people." title="M & M Custom Grazing" [showActionButton]="true"></app-primary-banner>
 <app-read-more *ngIf="readMoreActive" [readMoreCtx]="readMoreCtx" (exited)="deactivateModal()"></app-read-more>
 <section id="homeTileRow">
   <app-home-tile tileTitle="Healthy Pastures" iconSrc="https://img.icons8.com/carbon-copy/100/000000/field.png" (tileActivated)="activateModal('healthy-pastures')"></app-home-tile>

@@ -11,6 +11,10 @@ import { HomeTileComponent } from './components/home-tile/home-tile.component';
 import { ReadMoreComponent } from './components/read-more/read-more.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { AboutComponent } from './pages/about/about.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClient} from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,13 +26,19 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     HomeTileComponent,
     ReadMoreComponent,
     ContactComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    HttpClient
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-primary-banner',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./primary-banner.component.css']
 })
 export class PrimaryBannerComponent implements OnInit {
-
+  @Input() tagline;
+  @Input() title;
+  @Input() showActionButton;
   constructor() { }
 
   ngOnInit(): void {
